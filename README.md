@@ -1,2 +1,2 @@
 # configure
---.vimrc・・・vimの設定ファイル
+## .vimrc・・・vimの設定ファイル
