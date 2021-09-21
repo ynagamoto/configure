@@ -1,0 +1,8 @@
+{
+  "Keymap": {
+    "Tab": "peco.SelectDown",
+    "M-[,Z]": "peco.SelectUp",
+    "C-n": "peco.ScrollPageDown",
+    "C-b": "peco.ScrollPageUp"
+  }
+}
