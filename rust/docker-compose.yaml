@@ -1,0 +1,13 @@
+version: '3'
+services:
+  rust:
+    build: ./rust-image
+    image: yoichi00/container-ren:rust
+    container_name: rust
+    restart: always
+    volumes:
+    - type: bind
+      source: "./source"
+      target: "/workspace"
+    stdin_open: true
+    tty: true
