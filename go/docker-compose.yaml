@@ -1,0 +1,12 @@
+version: '3'
+services:
+  my-golang-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: my-golang-app
+    working_dir: /app
+    volumes:
+      - ./app:/app
+    ports:
+      - "2222:22" # ホストのポート:コンテナのポート
